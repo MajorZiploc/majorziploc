@@ -1,0 +1,83 @@
+.appbar {
+  background: #222;
+  margin: 0rem;
+  position: fixed;
+  z-index: 100;
+}
+
+.portfolioTitle {
+  text-decoration: none;
+  &:hover {
+    opacity: 0.7;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+}
+
+.hamburger {
+  color: tomato;
+  &:hover {
+    opacity: 0.7;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+}
+
+.navTitle {
+  color: tan;
+  padding-right: 3.125rem;
+}
+
+.generalLink {
+  color: tan;
+  margin-left: 0.938rem;
+  font-size: 0.875rem;
+}
+
+.downloadMenu {
+  & .MuiPaper-root {
+    background-color: #222;
+  }
+}
+
+.alink {
+  color: inherit;
+}
+
+.menuSliderContainer {
+  width: 15.625rem;
+  background: #511;
+  height: 100%;
+}
+
+.navName {
+  text-align: center;
+  color: tan;
+}
+
+.navBarAvatar {
+  display: block;
+  margin: 0.5rem auto;
+  width: 6.5rem;
+  height: 6.5rem;
+}
+
+.listItem {
+  color: tan;
+  &:hover {
+    background-color: #631111;
+  }
+}
+
+.listItemActive {
+  background-color: #441111;
+}
+
+.resumeDownload {
+  color: tan;
+  padding-left: 1rem;
+}

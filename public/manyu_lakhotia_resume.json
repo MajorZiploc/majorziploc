@@ -1,0 +1,651 @@
+{
+  "header": {
+    "firstName": "Abhimanyu",
+    "lastName": "Lakhotia",
+    "title": "Software Engineer",
+    "preferredName": "Manyu",
+    "phoneNumber": "+1(337)322-4192",
+    "location": "Lafayette, LA",
+    "email": "LakeMonYew@gmail.com",
+    "portfolio": "https://portfolio.majorziploc.com",
+    "portfolioRepo": "https://www.github.com/MajorZiploc/material-ui-portfolio",
+    "linkedIn": "https://www.linkedin.com/in/majorziploc/",
+    "github": "https://github.com/MajorZiploc"
+  },
+  "summary": {
+    "description": "Software Developer with 6+ years of work experience in developing web applications, documenting, stand alone applications, cicd, and databases; along with personal experience in art/design, scripting, web scraping, data analytics, and data cleaning.",
+    "roles": ["Frontend Developer", "Backend Developer", "Artist", "Designer", "Musician", "Scripter", "Web Scraper"]
+  },
+  "technicalSkills": {
+    "sectionHeader": "Technical Skills",
+    "items": [
+      {
+        "title": "Frontend",
+        "tools": [
+          { "name": "react" },
+          { "name": "redux" },
+          { "name": "jquery" },
+          { "name": "css" },
+          { "name": "sass" },
+          { "name": "html" },
+          { "name": "material ui" },
+          { "name": "bootstrap" },
+          { "name": "krita" },
+          { "name": "inkscape" },
+          { "name": "winforms" },
+          { "name": "cypress.io" }
+        ]
+      },
+      {
+        "title": "Backend",
+        "tools": [
+          { "name": "django" },
+          { "name": "express" },
+          { "name": "nodejs" },
+          { "name": "asp.net mvc" },
+          { "name": "google app suite" }
+        ]
+      },
+      {
+        "title": "Testing",
+        "tools": [
+          { "name": "jest" },
+          { "name": "tape", "shouldExclude": true },
+          { "name": "expecto", "shouldExclude": true },
+          { "name": "pester", "shouldExclude": true },
+          { "name": "bats", "shouldExclude": true }
+        ]
+      },
+      {
+        "title": "Languages",
+        "tools": [
+          { "name": "javascript" },
+          { "name": "python" },
+          { "name": "typescript" },
+          { "name": "bash" },
+          { "name": "sql" },
+          { "name": "mongodb" },
+          { "name": "php" },
+          { "name": "redis" },
+          { "name": "java" },
+          { "name": "C#" },
+          { "name": "F#" },
+          { "name": "powershell" },
+          { "name": "rbql" },
+          { "name": "vimscript" }
+        ]
+      },
+      {
+        "title": "DevOps",
+        "tools": [
+          { "name": "docker" },
+          { "name": "aws" },
+          { "name": "kubernetes" },
+          { "name": "gitlab ci" },
+          { "name": "github actions" },
+          { "name": "ansible" },
+          { "name": "Octopus Deploy" },
+          { "name": "Teamcity" },
+          { "name": "vmware" }
+        ]
+      },
+      {
+        "title": "Tooling",
+        "tools": [
+          { "name": "neovim" },
+          { "name": "vscode" },
+          { "name": "zsh" },
+          { "name": "tmux" },
+          { "name": "intellij" },
+          { "name": "visual studio" }
+        ],
+        "shouldExclude": true
+      },
+      {
+        "title": "Headless",
+        "tools": [{ "name": "pandas" }, { "name": "webscraper.io" }, { "name": "tampermonkey" }]
+      },
+      {
+        "title": "Operating Systems",
+        "tools": [{ "name": "mac" }, { "name": "ubuntu" }, { "name": "wsl ubuntu" }, { "name": "windows" }],
+        "shouldExclude": true
+      }
+    ]
+  },
+  "workExperience": {
+    "sectionHeader": "Experience",
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "timeDedicated": "Full time",
+        "teamSize": "4-8",
+        "workLocation": "Remote",
+        "workDateRanges": [
+          {
+            "beginDate": "05/04/2022",
+            "endDate": "Present"
+          }
+        ],
+        "company": "Conservis",
+        "sector": "Agriculture",
+        "sectorSpacing": "3.275cm",
+        "location": "Minneapolis, MN",
+        "points": [
+          {
+            "text": "Improved authentication by moving from homebrewed auth solution to keycloak"
+          },
+          {
+            "text": "Use krita and inkscape to design frontend mockups and create svg icons"
+          },
+          {
+            "text": "Work with geospatial data to convey profit and cost information of fields",
+            "shouldExclude": true
+          },
+          {
+            "text": "Utilized tools like: react, redux, postgresql, django, celery, rabbitmq, docker, redis, spring boot, bash, microservices, aws"
+          }
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "timeDedicated": "Full time",
+        "teamSize": "4-10",
+        "workLocation": "Mostly Remote",
+        "workDateRanges": [
+          {
+            "beginDate": "03/01/2020",
+            "endDate": "04/29/2022"
+          }
+        ],
+        "company": "Acadian Ambulance",
+        "sector": "Medical",
+        "sectorSpacing": "1.675cm",
+        "location": "Lafayette, LA",
+        "points": [
+          { "text": "Led development of an ambulance scheduling system" },
+          { "text": "Introduced containerization workflow with docker and wsl", "shouldExclude": true },
+          { "text": "Introduced automated UI and API testing using Cypress.io" },
+          {
+            "text": "Improved powershell, google app suite scripts (with npm clasp) and documentation practices",
+            "shouldExclude": true
+          },
+          {
+            "text": "Created interface for interacting/managing over 100 projects using just command runner, bash, and webscraper.io",
+            "shouldExclude": true
+          },
+          {
+            "text": "Utilized tools like: F#, C#, react, redux, wsl, mssql, docker, just, bash, microservices, aws, Octopus Deploy, Teamcity"
+          }
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "timeDedicated": "Part time",
+        "teamSize": "3-5",
+        "workLocation": "Remote",
+        "workDateRanges": [
+          {
+            "beginDate": "06/01/2021",
+            "endDate": "04/30/2022"
+          }
+        ],
+        "company": "Cythereal",
+        "sector": "Cyber security",
+        "sectorSpacing": "3.25cm",
+        "location": "Lafayette, LA",
+        "points": [
+          {
+            "text": "Created dashboard to investigate potential malware samples"
+          },
+          {
+            "text": "Undertook greenfield development and research to scout new projects",
+            "shouldExclude": true
+          },
+          {
+            "text": "Utilized tools like: django, react, redux, docker, mongodb, redis, rpm, bash, azure, ansible, terraform, packer, just"
+          }
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "timeDedicated": "Full time",
+        "teamSize": "10-15",
+        "workLocation": "Hybrid",
+        "workDateRanges": [
+          {
+            "beginDate": "01/01/2019",
+            "endDate": "02/01/2020"
+          }
+        ],
+        "company": "CGI",
+        "sector": "Medical",
+        "sectorSpacing": "4.1cm",
+        "location": "Lafayette, LA",
+        "points": [
+          {
+            "text": "Migrated legacy health insurance portal to more modern solutions",
+            "shouldExclude": false
+          },
+          {
+            "text": "Wrote automated UI and API test suites a health insurance website",
+            "shouldExclude": true
+          },
+          {
+            "text": "Utilized tools like: django, react, redux, docker, redis, mongodb, bash, openshift, vscode"
+          }
+        ]
+      },
+      {
+        "title": "Research Assistant",
+        "timeDedicated": "Part time",
+        "workLocation": "Hybrid",
+        "workDateRanges": [
+          {
+            "beginDate": "05/01/2018",
+            "endDate": "12/01/2018"
+          }
+        ],
+        "company": "University Of Louisiana",
+        "sector": "Programming Languages",
+        "sectorSpacing": "1.1cm",
+        "location": "Lafayette, LA",
+        "points": [
+          {
+            "text": "Read research papers and books on programming language design and type theory",
+            "shouldExclude": true
+          },
+          { "text": "Taught supplemental sessions for a programming languages course", "shouldExclude": true }
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "timeDedicated": "Full time",
+        "teamSize": "4-6",
+        "workLocation": "Hybrid",
+        "workDateRanges": [
+          {
+            "beginDate": "12/01/2016",
+            "endDate": "12/01/2018"
+          }
+        ],
+        "company": "Wetlands Research Center",
+        "sector": "Aquaculture",
+        "sectorSpacing": "0.7cm",
+        "location": "Lafayette, LA",
+        "points": [
+          {
+            "text": "Developed a website using asp.net mvc for network monitoring",
+            "shouldExclude": true
+          },
+          {
+            "text": "Developed a stand alone java swing app for analyzing geospatial water levels from large NetCDF files"
+          },
+          {
+            "text": "Utilized tools like: java swing, asp.net mvc, eclipse, visual studio, postgresql, mssql",
+            "shouldExclude": true
+          }
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "timeDedicated": "Part time",
+        "teamSize": "4-8",
+        "workLocation": "In Office",
+        "workDateRanges": [
+          {
+            "beginDate": "07/01/2011",
+            "endDate": "12/01/2017"
+          },
+          {
+            "beginDate": "03/01/2020",
+            "endDate": "04/23/2022"
+          }
+        ],
+        "company": "C & M Music Center",
+        "sector": "Music",
+        "sectorSpacing": "1.485cm",
+        "location": "Lafayette, LA",
+        "points": [
+          {
+            "text": "Built a dashboard to analyze sales, inventory, and customer spending patterns"
+          },
+          {
+            "text": "Wrote MSAccess queries to fill in missing gaps of POS software",
+            "shouldExclude": true
+          },
+          {
+            "text": "Wrote webscraper.io/pandas scripts to scrape/analyze/manage our online Reverb.com item listings",
+            "shouldExclude": true
+          },
+          {
+            "text": "Wrote powershell and google app suite scripts for various miscellaneous tasks",
+            "shouldExclude": true
+          },
+          {
+            "text": "Utilized tools like: django, react, redux, docker, redis, bash, aws, postgresql, MSAccess, google app suite, powershell"
+          }
+        ],
+        "icon": {
+          "simple": true,
+          "staticSize": true
+        }
+      }
+    ]
+  },
+  "openSourceProjects": {
+    "sectionHeader": "Open Source Projects",
+    "items": [
+      {
+        "description": "A language extension library to improve things such as generics",
+        "languages": ["F#"],
+        "availableOn": "nuget",
+        "links": {
+          "main": {
+            "href": "https://github.com/fsprojects/FSharpPlus"
+          },
+          "supporting": [
+            {
+              "href": "https://fsprojects.github.io/FSharpPlus/"
+            }
+          ]
+        },
+        "tooling": [],
+        "roles": [{ "name": "minor contributor" }],
+        "shouldExclude": false,
+        "contributions": ["Added Nullable module and operators that operator under context"]
+      },
+      {
+        "description": "A oauth2 library with user federations, management and more",
+        "languages": ["java", "typescript"],
+        "availableOn": "maven",
+        "links": {
+          "main": {
+            "href": "https://github.com/keycloak/keycloak"
+          },
+          "supporting": [
+            {
+              "href": "https://www.keycloak.org/documentation.html"
+            }
+          ]
+        },
+        "tooling": [],
+        "roles": [{ "name": "minor contributor" }],
+        "shouldExclude": false,
+        "contributions": [
+          "Fixed icons on frontend pages for user account pages",
+          "Improved promise workflows in user account pages"
+        ]
+      },
+      {
+        "description": "A nvim plugin for remote devcontainers using same configs as vscode devcontainers",
+        "languages": ["lua"],
+        "links": {
+          "main": {
+            "href": "https://github.com/esensar/nvim-dev-container"
+          }
+        },
+        "tooling": [],
+        "roles": [{ "name": "minor contributor" }],
+        "shouldExclude": false,
+        "contributions": ["Addressed various deprecation issues related to neovim updates"]
+      },
+      {
+        "description": "Language utilities for Result, Option, Async and other utility functions",
+        "languages": ["F#"],
+        "availableOn": "nuget",
+        "links": {
+          "main": {
+            "href": "https://github.com/Acadian-Ambulance/Acadian.FSharp"
+          },
+          "supporting": [
+            {
+              "href": "https://www.nuget.org/packages/Acadian.FSharp/"
+            }
+          ]
+        },
+        "tooling": [{ "name": "fake (fsharp make file)" }],
+        "roles": [{ "name": "major contributor" }],
+        "shouldExclude": false,
+        "contributions": ["Added various helpers for Result, Option, Async and other utility functions"]
+      },
+      {
+        "description": "A F# wrapper for C#'s Dapper to convert datatypes to F# variants",
+        "languages": ["F#"],
+        "availableOn": "nuget",
+        "links": {
+          "main": {
+            "href": "https://github.com/Acadian-Ambulance/Acadian.Dapper.Fs"
+          },
+          "supporting": [
+            {
+              "href": "https://www.nuget.org/packages/Acadian.Dapper.Fs/"
+            }
+          ]
+        },
+        "tooling": [{ "name": "fake (fsharp make file)" }],
+        "roles": [{ "name": "major contributor" }],
+        "shouldExclude": false,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
+        "description": "A F# wrapper for dealing with type conversions related to json and F# models",
+        "languages": ["F#"],
+        "availableOn": "nuget",
+        "links": {
+          "main": {
+            "href": "https://github.com/Acadian-Ambulance/Acadian.Json.Fs"
+          },
+          "supporting": [
+            {
+              "href": "https://www.nuget.org/packages/Acadian.Json.Fs/"
+            }
+          ]
+        },
+        "tooling": [{ "name": "fake (fsharp make file)" }],
+        "roles": [{ "name": "major contributor" }],
+        "shouldExclude": false,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
+        "description": "A microservice based website template using django and react",
+        "languages": ["python", "javascript"],
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/django-react"
+          }
+        },
+        "tooling": [{ "name": "docker" }, { "name": "django" }, { "name": "react" }],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": true,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
+        "description": "An area for exploratory data science; to clean, analyze, and visualize data.",
+        "languages": ["python"],
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/pandas_data_analytics"
+          }
+        },
+        "tooling": [{ "name": "docker" }, { "name": "pandas" }],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": true,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
+        "description": "A vim/nvim plugin to run selected sql, nosql, or code",
+        "languages": ["vimscript"],
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/code_runner.vim"
+          }
+        },
+        "tooling": [],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": true,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
+        "description": "A wrapper over lodash to help test api's and much more",
+        "languages": ["typescript"],
+        "availableOn": "npm",
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/json-test-utility"
+          },
+          "supporting": [
+            {
+              "href": "https://www.npmjs.com/package/json-test-utility"
+            }
+          ]
+        },
+        "tooling": [
+          {
+            "name": "appveyor"
+          }
+        ],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": true,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
+        "description": "A module to create new powershell modules",
+        "languages": ["powershell"],
+        "availableOn": "psgallery",
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/powershell_scaffolder"
+          },
+          "supporting": [
+            {
+              "href": "https://www.powershellgallery.com/packages/powershell_scaffolder"
+            }
+          ]
+        },
+        "tooling": [{ "name": "github actions" }],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": true,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
+        "description": "A cross platform developer machine harness for vim, nvim, zsh, bash, vscode, and tmux",
+        "languages": ["shell", "rbql", "powershell"],
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/dotfiles"
+          }
+        },
+        "tooling": [{ "name": "docker" }, { "name": "bats" }],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": true,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
+        "description": "A web scrapping harness that makes use of webscraper.io",
+        "languages": ["javascript"],
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/web_scraper_io_scripts"
+          }
+        },
+        "tooling": [{ "name": "docker" }],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": true,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
+        "description": "A way to manage multiple google scripts with standard coding tools",
+        "languages": ["javascript"],
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/google.app.suite.scripts"
+          }
+        },
+        "shouldExclude": true,
+        "tooling": [{ "name": "clasp" }],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "contributions": ["Created the idea and core implementation as a whole"]
+      }
+    ]
+  },
+  "education": {
+    "sectionHeader": "Education",
+    "degrees": [
+      {
+        "level": "Bachelors",
+        "concentration": "Economics with Computer Science and Mathematics",
+        "university": "University of Louisiana at Lafayette",
+        "beginDate": "2016",
+        "endDate": "2018"
+      },
+      {
+        "level": "Associates",
+        "concentration": "General Studies Business",
+        "university": "South Louisiana Community College",
+        "beginDate": "2013",
+        "endDate": "2015"
+      }
+    ]
+  },
+  "aboutMe": {
+    "hobbies": {
+      "sectionHeader": "Hobbies",
+      "items": [
+        {
+          "title": "Sketching",
+          "description": "At 29, I picked up sketching inspired by my love for manga and anime. One day I hope to write my own manga based around my late mothers life",
+          "links": {
+            "main": {
+              "href": "https://www.deviantart.com/majorziploc/gallery/all",
+              "label": "Check out my sketches"
+            }
+          }
+        },
+        {
+          "title": "Programming",
+          "description": "At 23, I picked up programming by starting with a python book. Ever since then, its been something I have loved and have continued to learn about on my own time",
+          "links": {
+            "main": {
+              "label": "Check out my side projects",
+              "href": "https://github.com/MajorZiploc"
+            },
+            "supporting": [
+              {
+                "href": "https://www.codewars.com/users/Major_Ziploc",
+                "label": "Code Wars"
+              },
+              {
+                "href": "https://leetcode.com/MajorZiploc/",
+                "label": "Leet Code"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Running",
+          "description": "At 27, running became a normal part of life inspired by my mother. Entering races is now something I do to honor my late mother"
+        },
+        {
+          "title": "Working Out",
+          "description": "At 20, I became fixated on exercise. I have not stopped since then and am very consistent with it"
+        },
+        {
+          "title": "Guitar",
+          "description": "At 10, my parents gave me the opportunity to learn guitar. Since then, it has always been something I can go to in order to be creative and express myself"
+        },
+        {
+          "title": "Nutrition",
+          "description": "At 27, calorie counting became a regular part of my life. Thinking of food in terms of calories per gram has given me a easy and quick guide to nutrition while still enjoying food. Now, I follow a mixture of counting calories and intuitive eating to give me a rough estimate of my calories of the day"
+        },
+        {
+          "title": "Slack-Lining",
+          "description": "A much more causal hobby of mine that I do when hanging out with friends, on trips, or taking an easy day"
+        },
+        {
+          "title": "Skateboarding (Cruising)",
+          "description": "A fun means of transportation when traveling and doing sight seeing"
+        }
+      ]
+    }
+  }
+}

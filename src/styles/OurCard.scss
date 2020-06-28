@@ -1,0 +1,53 @@
+@import './mixins.scss';
+
+.cardContainer {
+  margin: 3rem auto;
+  background: #222;
+
+  @include lg-desktop {
+    & {
+      max-width: 28.5rem;
+    }
+  }
+
+  @include desktop {
+    & {
+      max-width: 24.5rem;
+    }
+  }
+
+  @include lg-tablet {
+    & {
+      max-width: 20.5rem;
+    }
+  }
+
+  @include sm-tablet {
+    & {
+      max-width: 18.5rem;
+    }
+  }
+
+  @include mobile {
+    & {
+      max-width: 29.5rem;
+    }
+  }
+}
+
+.cardHeader {
+  color: tomato;
+}
+
+.cardBtn {
+  color: rgb(63, 181, 181);
+  &:hover {
+    background-color: rgba(100, 200, 210, 0.12);
+  }
+}
+
+.cardActionArea {
+  &:hover {
+    background-color: rgba(30, 30, 30, 30);
+  }
+}

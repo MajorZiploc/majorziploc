@@ -1,0 +1,55 @@
+@mixin mobile {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+
+@mixin sm-tablet {
+  @media (min-width: 901px) and (max-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin lg-tablet {
+  @media (min-width: 1001px) and (max-width: 1224px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1225px) and (max-width: 1599px) {
+    @content;
+  }
+}
+
+@mixin lg-desktop {
+  @media (min-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin media($keys...) {
+  @each $key in $keys {
+    @if ($key == mobile) {
+      @include mobile {
+        @content;
+      }
+    } @else if ($key == sm-tablet) {
+      @include sm-tablet {
+        @content;
+      }
+    } @else if ($key == lg-tablet) {
+      @include lg-tablet {
+        @content;
+      }
+    } @else if ($key == desktop) {
+      @include desktop {
+        @content;
+      }
+    } @else if ($key == lg-desktop) {
+      @include lg-desktop {
+        @content;
+      }
+    }
+  }
+}

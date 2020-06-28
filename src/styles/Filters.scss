@@ -1,0 +1,44 @@
+.filterTextColor {
+  color: tan;
+}
+
+.inputLabel {
+  min-width: 75%;
+}
+
+.matches {
+  margin-left: 0.5rem;
+}
+
+.filterToggleShow {
+  margin-left: 0.75rem;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.filterSelect {
+  background-color: #222;
+  & svg {
+    color: tan;
+  }
+}
+
+.filterClearButton {
+  color: tan;
+  border-color: black;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  &:hover {
+    border-color: tan;
+  }
+}
+
+.filtersContainer {
+  margin-left: 1.35rem;
+}
+
+.filterMatchesRight {
+  margin-right: 1rem;
+}

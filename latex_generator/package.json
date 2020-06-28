@@ -1,0 +1,28 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write",
+    "test:types": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MajorZiploc/Resume.git"
+  },
+  "author": "Manyu Lakhotia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MajorZiploc/Resume/issues"
+  },
+  "homepage": "https://github.com/MajorZiploc/Resume#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "typescript": "^4.8.4"
+  }
+}

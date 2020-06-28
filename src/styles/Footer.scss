@@ -1,0 +1,13 @@
+.bottomNavContainer {
+  background: #222;
+}
+
+.footerLink {
+  & .MuiSvgIcon-root {
+    fill: tan;
+    &:hover {
+      fill: tomato;
+      font-size: 1.8rem;
+    }
+  }
+}
