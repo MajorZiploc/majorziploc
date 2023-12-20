@@ -51,8 +51,8 @@ export const OurSelect = props => {
         {props.name} {`${props.selected.length}/${props.choices.length}`}
       </InputLabel>
       <Select
-        labelId={`${props.name}-multiple-checkbox-label`}
-        id={`${props.name}-multiple-checkbox`}
+        labelId={`${props.name}-multiple-select-label`}
+        id={`${props.name}-multiple-select`}
         multiple
         value={props.selected}
         onChange={handleChangeSelect(props.selectSetter)}
