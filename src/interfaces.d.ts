@@ -186,6 +186,12 @@ export interface OurCheckboxProps {
   disabled: boolean;
 }
 
+export interface OurTextFieldProps {
+  name: string;
+  value: string;
+  selectSetter: (value: string) => void;
+}
+
 export interface FiltersProps {
   filters: JSX.Element[];
   matchCount: number | null;

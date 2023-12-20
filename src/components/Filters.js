@@ -7,16 +7,18 @@ import FormControl from '@mui/material/FormControl';
 import ListItemText from '@mui/material/ListItemText';
 import Select from '@mui/material/Select';
 import Checkbox from '@mui/material/Checkbox';
-import { Button, FormControlLabel } from '@mui/material';
+import { Button, FormControlLabel, TextField } from '@mui/material';
 import '../styles/Global.scss';
 import '../styles/Filters.scss';
 import { ArrowDropDown, ArrowRight } from '@mui/icons-material';
 import { useWindowSize } from '@uidotdev/usehooks';
+import { toCamel } from '../utils';
 
 /**
  * @typedef {import('../interfaces').FiltersProps} FiltersProps
  * @typedef {import('../interfaces').OurSelectProps} OurSelectProps
  * @typedef {import('../interfaces').OurCheckboxProps} OurCheckboxProps
+ * @typedef {import('../interfaces').OurTextFieldProps} OurTextFieldProps
  */
 
 const SELECT_ITEM_HEIGHT = 48;
@@ -86,6 +88,36 @@ export const OurCheckbox = props => {
       label={props.label}
       disabled={props.disabled}
     />
+  );
+};
+
+/**
+ * @type {React.FC<OurTextFieldProps>}
+ * @returns {React.ReactElement}
+ */
+export const OurTextInput = props => {
+  const handleChangeSelect = setter => event => {
+    const {
+      target: { value },
+    } = event;
+    setter(value);
+  };
+  const { width } = useWindowSize();
+  const formWidth = width <= 351 ? 175 : width <= 800 ? 250 : 300;
+  return (
+    <FormControl sx={{ m: 1, width: formWidth }}>
+      <TextField
+        sx={{ input: { color: 'tan' } }}
+        label={props.name}
+        id={`${toCamel(props.name)}-text-field`}
+        value={props.value}
+        onChange={handleChangeSelect(props.selectSetter)}
+        className='filterTextColor filterSelect'
+        InputLabelProps={{
+          style: { color: 'tan' },
+        }}
+      />
+    </FormControl>
   );
 };
 
