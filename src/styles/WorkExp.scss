@@ -12,7 +12,7 @@
     right: 40px;
     top: 0;
 
-    @include media(mobile, sm-tablet, lg-tablet) {
+    @include media(sm-mobile, md-mobile, lg-mobile, sm-tablet, lg-tablet) {
       right: 10px;
     }
   }
@@ -55,19 +55,19 @@
     transform: rotate(45deg);
   }
 
-  @include media(mobile) {
+  @include media(sm-mobile, md-mobile, lg-mobile) {
     & ul {
       padding-left: 0px;
     }
   }
 
   &__title {
-    @include media(mobile, sm-tablet, lg-tablet) {
+    @include media(sm-mobile, md-mobile, lg-mobile, sm-tablet, lg-tablet) {
       margin-right: 4rem;
     }
   }
 
-  @include media(mobile, sm-tablet, lg-tablet) {
+  @include media(sm-mobile, md-mobile, lg-mobile, sm-tablet, lg-tablet) {
     margin: 1rem 1rem 1rem 1rem;
   }
 

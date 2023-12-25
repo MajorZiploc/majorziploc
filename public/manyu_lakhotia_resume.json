@@ -326,8 +326,8 @@
           }
         ],
         "icon": {
-          "simple": true,
-          "staticSize": true
+          "simple": "true",
+          "staticsize": "true"
         }
       }
     ]
@@ -592,12 +592,12 @@
       "sectionHeader": "Hobbies",
       "items": [
         {
-          "title": "Sketching",
-          "description": "At 29, I picked up sketching inspired by my love for manga and anime. One day I hope to write my own manga based around my late mothers life",
+          "title": "Art",
+          "description": "At 29, I picked up art inspired by my love for manga and anime. One day I hope to either write my own manga or make my own pixel game",
           "links": {
             "main": {
               "href": "https://www.deviantart.com/majorziploc/gallery/all",
-              "label": "Check out my sketches"
+              "label": "Check out my art"
             }
           }
         },

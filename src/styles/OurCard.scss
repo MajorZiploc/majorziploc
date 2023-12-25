@@ -28,7 +28,7 @@
     }
   }
 
-  @include mobile {
+  @include lg-mobile {
     & {
       max-width: 29.5rem;
     }

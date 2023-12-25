@@ -67,8 +67,8 @@ export interface Job {
 }
 
 export interface Icon {
-  simple: boolean;
-  staticSize: boolean;
+  simple: string;
+  staticsize: string;
 }
 
 export interface WorkDateRange {

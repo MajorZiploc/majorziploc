@@ -1,3 +1,5 @@
+@import './mixins.scss';
+
 .headerAvatar {
   width: 7.5rem;
   height: 7.5rem;
@@ -7,6 +9,7 @@
 .headerTitle {
   color: tomato;
   padding: 0;
+  text-align: center;
 }
 
 .headerTitleText {
@@ -16,6 +19,7 @@
 .headerSubtitle {
   color: tan;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .typedContainer {
@@ -24,7 +28,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100vw;
-  text-align: center;
   z-index: 1;
 }
 
@@ -35,18 +38,34 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
   z-index: 1;
-  background-image: url(../assets/girl_sword_building_alley_opt.svg);
+  background-image: url(../assets/pixel_art_sunset_tree_girl.png);
+
+  // for pixel art image scaling
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
+  background-color: #222;
   background-origin: initial;
   background-clip: initial;
   background-attachment: fixed;
-  background-color: #222;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+  // HACK: Still need to figure out why the page content is shifted down on page down. Look at README issue for details
+  @include media(lg-mobile, sm-tablet, lg-tablet, desktop, lg-desktop) {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+
+  @include media(sm-mobile, md-mobile) {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }

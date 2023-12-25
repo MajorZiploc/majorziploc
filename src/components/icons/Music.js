@@ -118,7 +118,7 @@ const SvgMusic = props => (
       d='M4.099 0c0 1.635 1.874 22.869-4.099 22.869'
       transform='matrix(.6661 .02901 -.02901 .6661 52.298 71.145)'
     />
-    {!props.simple && (
+    {!(props.simple.toLowerCase() === 'true') && (
       <>
         <path
           fill={props.fill || 'none'}

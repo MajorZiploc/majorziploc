@@ -37,3 +37,10 @@ Server will be available at http://127.0.0.1:3000 in your browser
 #### Frontend MUI Theme
 
 add styles to createTheme() so that every component doesnt have to fight the default styles of mui. styles will be managed globally if this is done
+
+#### Home Page Mobile Issue
+
+After switching from svg to pixel art. The page starts slightly lower than before until you click on anything on the page. Then it snaps into place.
+If you reload the page or nav to any sub page and back, then the placement is right. It is only an issue on first load
+NOTE: only happens on mobile when you going straight to this site from the blank google chrome page - the page that is waiting for the user to type in a url to go to
+if you go to this site from any other site, then its fine on load

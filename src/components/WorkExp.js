@@ -46,7 +46,12 @@ const tryGetIcon = name => {
 const WorkExpEntry = ({ job }) => {
   const windowSize = useWindowSize();
   const reduceIconBy =
-    !job.icon?.staticSize && windowSize.width < 1321 && windowSize.width >= 1225 && job.title.length > 22 ? 18 : 0;
+    !(job.icon?.staticsize.toLowerCase() === 'true') &&
+    windowSize.width < 1321 &&
+    windowSize.width >= 1225 &&
+    job.title.length > 22
+      ? 18
+      : 0;
   const Icon = tryGetIcon(job.sector);
   /** @type {React.CSSProperties} */
   const iconStyles = windowSize.width < 1225 ? {} : { position: 'absolute' };
@@ -79,7 +84,7 @@ const WorkExpEntry = ({ job }) => {
         {job.points && (
           <ul>
             {job.points.map(point => (
-              <li>
+              <li key={point.text}>
                 <Typography key={point.text} variant='subtitle1' align='left' className='subtitle1'>
                   {point.text}
                 </Typography>

@@ -1,5 +1,17 @@
-@mixin mobile {
-  @media (max-width: 900px) {
+@mixin sm-mobile {
+  @media (max-width: 350px) {
+    @content;
+  }
+}
+
+@mixin md-mobile {
+  @media (min-width: 351px) and (max-width: 675px) {
+    @content;
+  }
+}
+
+@mixin lg-mobile {
+  @media (min-width: 676px) and (max-width: 900px) {
     @content;
   }
 }
@@ -30,8 +42,16 @@
 
 @mixin media($keys...) {
   @each $key in $keys {
-    @if ($key == mobile) {
-      @include mobile {
+    @if ($key == sm-mobile) {
+      @include sm-mobile {
+        @content;
+      }
+    } @else if ($key == md-mobile) {
+      @include md-mobile {
+        @content;
+      }
+    } @else if ($key == lg-mobile) {
+      @include lg-mobile {
         @content;
       }
     } @else if ($key == sm-tablet) {
