@@ -63,7 +63,7 @@ const OurCard = ({
         {cardContentBodies.map((cardContentBody, i) =>
           typeof cardContentBody === 'string' ? (
             // TODO: change the key={i} to something more unique in case of filter and sorting
-            <Typography key={i} className='cardBody' variant='body2' color='textSecondary'>
+            <Typography key={cardContentBody} className='cardBody' variant='body2' color='textSecondary'>
               {cardContentBody}
             </Typography>
           ) : typeof cardContentBody === 'function' ? (
@@ -97,7 +97,11 @@ const OurCard = ({
               {supportingLinkButtonText}
             </Button>
           ) : item.links?.supporting?.length > 1 ? (
-            <MoreMenu links={item.links.supporting} supportingLinkButtonText={supportingLinkButtonText} />
+            <MoreMenu
+              key={item.links.supporting.map(l => l.href).join(',')}
+              links={item.links.supporting}
+              supportingLinkButtonText={supportingLinkButtonText}
+            />
           ) : null,
         ].filter(i => i)}
       />
