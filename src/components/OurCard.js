@@ -53,24 +53,24 @@ const OurCard = ({
             ) : typeof image === 'function' ? (
               image({ height: 300, width: '100%' })
             ) : null}
-            <CardContent>
-              <Typography className='cardHeader' variant='h5' gutterBottom>
-                {getTitle(item)}
-              </Typography>
-              {cardContentBodies.map((cardContentBody, i) =>
-                typeof cardContentBody === 'string' ? (
-                  // TODO: change the key={i} to something more unique in case of filter and sorting
-                  <Typography key={i} className='cardBody' variant='body2' color='textSecondary'>
-                    {cardContentBody}
-                  </Typography>
-                ) : typeof cardContentBody === 'function' ? (
-                  cardContentBody(i)
-                ) : null
-              )}
-            </CardContent>
           </>
         )}
       />
+      <CardContent>
+        <Typography className='cardHeader' variant='h5' gutterBottom>
+          {getTitle(item)}
+        </Typography>
+        {cardContentBodies.map((cardContentBody, i) =>
+          typeof cardContentBody === 'string' ? (
+            // TODO: change the key={i} to something more unique in case of filter and sorting
+            <Typography key={i} className='cardBody' variant='body2' color='textSecondary'>
+              {cardContentBody}
+            </Typography>
+          ) : typeof cardContentBody === 'function' ? (
+            cardContentBody(i)
+          ) : null
+        )}
+      </CardContent>
       <OurCardActions
         actions={[
           item.links?.main?.href && (
