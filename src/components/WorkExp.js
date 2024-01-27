@@ -46,7 +46,7 @@ const tryGetIcon = name => {
 const WorkExpEntry = ({ job }) => {
   const windowSize = useWindowSize();
   const reduceIconBy =
-    !(job.icon?.staticsize.toLowerCase() === 'true') &&
+    !(job.icon?.staticsize?.toLowerCase() === 'true') &&
     windowSize.width < 1321 &&
     windowSize.width >= 1225 &&
     job.title.length > 22

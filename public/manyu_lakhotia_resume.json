@@ -122,8 +122,32 @@
         "workLocation": "Remote",
         "workDateRanges": [
           {
-            "beginDate": "05/04/2022",
+            "beginDate": "02/01/2024",
             "endDate": "Present"
+          }
+        ],
+        "company": "Optimal Dynamics",
+        "sector": "Logistics",
+        "sectorSpacing": "1.86cm",
+        "location": "New York, NY",
+        "points": [
+          {
+            "text": "Utilized tools like: react, redux, postgresql, django, celery, rabbitmq, docker, redis, spring boot, bash, microservices, aws"
+          }
+        ],
+        "icon": {
+          "viewBox": "0 0 125 88"
+        }
+      },
+      {
+        "title": "Software Engineer",
+        "timeDedicated": "Full time",
+        "teamSize": "4-8",
+        "workLocation": "Remote",
+        "workDateRanges": [
+          {
+            "beginDate": "05/04/2022",
+            "endDate": "01/31/2024"
           }
         ],
         "company": "Conservis",
@@ -305,6 +329,7 @@
         "sector": "Music",
         "sectorSpacing": "1.485cm",
         "location": "Lafayette, LA",
+        "shouldExclude": true,
         "points": [
           {
             "text": "Built a dashboard to analyze sales, inventory, and customer spending patterns"

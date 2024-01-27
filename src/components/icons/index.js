@@ -27,5 +27,6 @@ export { default as Sketching } from './Sketching';
 export { default as Slacklining } from './Slacklining';
 export { default as Testing } from './Testing';
 export { default as Tooling } from './Tooling';
+export { default as Logistics } from './Logistics';
 export { default as Typescript } from './Typescript';
 export { default as Vim } from './Vim';
