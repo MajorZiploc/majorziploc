@@ -64,6 +64,7 @@ export interface Job {
   location: string;
   points: Point[];
   icon?: Icon;
+  shouldExclude?: boolean;
 }
 
 export interface Icon {

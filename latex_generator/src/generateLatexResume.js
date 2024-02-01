@@ -92,6 +92,7 @@ function getWorkExperienceSection(resumeConfig, _latexFormat) {
 
 \\begin{rSection}{${resumeConfig.workExperience.sectionHeader}}
 ${resumeConfig.workExperience.jobs
+  .filter(job => !job.shouldExclude)
   .map(job => {
     const pointsToShow = job.points.filter(p => !p.shouldExclude);
     return `
