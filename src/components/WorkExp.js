@@ -25,7 +25,7 @@ function getDateRangeFormated(dateRange) {
   // prettier-ignore
   const endDate =
     isNaN(end?.getFullYear()) ? dateRange.endDate
-    : end?.getFullYear() && end?.getMonth() ? getTimeStamp(end)
+    : end?.getFullYear() && end?.getMonth() != null ? getTimeStamp(end)
     : dateRange.endDate;
   return [beginDate === endDate, !endDate].some(b => b) ? beginDate : `${beginDate} - ${endDate}`;
 }
