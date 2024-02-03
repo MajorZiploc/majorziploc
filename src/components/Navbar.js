@@ -109,7 +109,7 @@ const Navbar = () => {
             <IconButton onClick={() => setOpen(true)}>
               <MenuIcon className='hamburger' />
             </IconButton>
-            <Link onClick={() => setActiveTab(homeListPath)} className='portfolioTitle' to='/'>
+            <Link onClick={() => setActiveTab(homeListPath)} className='portfolioTitle' to={homeListPath}>
               <Typography variant='h5' className='navTitle'>
                 Portfolio
               </Typography>
