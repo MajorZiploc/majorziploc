@@ -26,7 +26,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 // import ContactMail from '@material-ui/icons/ContactMail';
 // @ts-ignore
-import avatar from '../avatar.jpg';
+import selfPortrait from '../assets/pixel_art_self_portrait.png';
 import { useResumeData } from './hooks';
 
 import Footer from '../components/Footer';
@@ -74,7 +74,7 @@ const Navbar = () => {
 
   const sideList = resumeData => (
     <Box className='menuSliderContainer' component='div'>
-      <Avatar className='navBarAvatar' src={avatar} alt='Manyu Lakhotia' />
+      <Avatar className='navBarAvatar' src={selfPortrait} alt='Manyu Lakhotia' />
       <Typography className='navName'>
         {resumeData.header.preferredName} {resumeData.header.lastName}
       </Typography>
