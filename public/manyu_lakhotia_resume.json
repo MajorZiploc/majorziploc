@@ -14,7 +14,7 @@
   },
   "summary": {
     "description": "Software Developer with 6+ years of work experience in developing web applications, documenting, stand alone applications, cicd, and databases; along with personal experience in art/design, scripting, web scraping, data analytics, and data cleaning.",
-    "roles": ["Frontend Developer", "Backend Developer", "Artist", "Designer", "Musician", "Scripter", "Web Scraper"]
+    "roles": ["Frontend Developer", "Backend Developer", "Artist", "Game Developer", "Designer", "Musician", "Scripter", "Web Scraper"]
   },
   "technicalSkills": {
     "sectionHeader": "Technical Skills",
@@ -618,11 +618,21 @@
       "items": [
         {
           "title": "Art",
-          "description": "At 29, I picked up art inspired by my love for manga and anime. One day I hope to either write my own manga or make my own pixel game",
+          "description": "At 29, I picked up art inspired by my love for manga and anime. One day I hope to either write my own manga or make my own game",
           "links": {
             "main": {
               "href": "https://www.deviantart.com/majorziploc/gallery/all",
               "label": "Check out my art"
+            }
+          }
+        },
+        {
+          "title": "Game Development",
+          "description": "At 30, I picked up game development in order to give my art a purpose",
+          "links": {
+            "main": {
+              "href": "https://majorziploc.itch.io/sticker-book-time-attack",
+              "label": "Check out my game demo"
             }
           }
         },
