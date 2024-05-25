@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import '../styles/Global.scss';
 import '../styles/PlayGame.scss';
+import { useResumeData } from './hooks';
 
 /**
  * @typedef {import('../interfaces').ResumeData} ResumeData
@@ -12,6 +13,8 @@ import '../styles/PlayGame.scss';
  * @returns {React.ReactElement}
  */
 const PlayGame = () => {
+  /** @type ResumeData */
+  const resumeData = useResumeData();
   const [gameFailedToLoad, setGameFailedToLoad] = useState(false);
 
   const handleEmbeddedGameLoaded = e => {
@@ -20,27 +23,33 @@ const PlayGame = () => {
     setGameFailedToLoad(!iframe?.contentDocument);
   };
 
-  return (
+  return resumeData ? (
     <Box className='game-container'>
       {!gameFailedToLoad ? (
         <Box className='game-iframe-container'>
           <iframe
-            title='Sticker Book: Time Attack'
+            title={resumeData.playGame.embedded.label}
             className='game-iframe'
-            src='https://itch.io/embed-upload/10510967?color=333333'
+            src={resumeData.playGame.embedded.src}
             allowFullScreen
             allow='cross-origin-isolated'
             onLoad={handleEmbeddedGameLoaded}
           >
-            <a href='https://majorziploc.itch.io/sticker-book-time-attack'>Play Sticker Book: Time Attack on itch.io</a>
+            <a href={resumeData.playGame.embedded.href}>{resumeData.playGame.embedded.label}</a>
           </iframe>
         </Box>
       ) : (
-        <iframe src='https://itch.io/embed/2727667' className='game-link-iframe-container'>
-          <a href='https://majorziploc.itch.io/sticker-book-time-attack'>Sticker Book: Time Attack by MajorZiploc</a>
+        <iframe
+          title={resumeData.playGame.link.label}
+          src={resumeData.playGame.link.src}
+          className='game-link-iframe-container'
+        >
+          <a href={resumeData.playGame.link.href}>{resumeData.playGame.link.label}</a>
         </iframe>
       )}
     </Box>
+  ) : (
+    <></>
   );
 };
 

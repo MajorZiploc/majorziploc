@@ -6,6 +6,7 @@ export interface ResumeData {
   openSourceProjects: OpenSourceProjects;
   education: Education;
   aboutMe: AboutMe;
+  playGame: PlayGame;
 }
 
 export interface Header {
@@ -131,6 +132,17 @@ export interface AboutMe {
 export interface Hobbies {
   sectionHeader: string;
   items: HobbiesItem[];
+}
+
+export interface PlayGame {
+  embedded: PlayGameEntry;
+  link: PlayGameEntry;
+}
+
+export interface PlayGameEntry {
+  label: string;
+  href: string;
+  src: string;
 }
 
 export interface HobbiesItem {
