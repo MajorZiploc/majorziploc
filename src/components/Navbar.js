@@ -49,7 +49,7 @@ const menuItems = [
   { listIcon: <Build />, listText: 'Technical Summary', listPath: '/techsummary' },
   { listIcon: <Apps />, listText: 'Open Source Projects', listPath: '/opensource' },
   { listIcon: <Brush />, listText: 'About Me', listPath: '/aboutme' },
-  { listIcon: <SportsEsports />, listText: 'Play my Game!', listPath: '/playgame' },
+  { listIcon: <SportsEsports />, listText: 'Play My Game!', listPath: '/playgame' },
 ];
 
 /** @type {() => string} */

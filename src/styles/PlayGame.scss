@@ -1,9 +1,12 @@
+@import './mixins.scss';
+
 .game-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
+  background-color: #222;
 }
 
 .game-iframe-container {
@@ -19,4 +22,30 @@
   width: 100%;
   height: 100%;
   border: 0; /* optional: to remove the default iframe border */
+}
+
+.game-link-iframe-container {
+  position: relative;
+  width: 100%;
+  right: 10px;
+
+  @include media(sm-mobile) {
+    padding-top: 30.25% !important;
+  }
+
+  @include media(md-mobile) {
+    padding-top: 17.25% !important;
+  }
+
+  @include media(lg-mobile, sm-tablet, lg-tablet) {
+    padding-top: 9.25% !important;
+  }
+
+  @include media(desktop, lg-desktop) {
+    padding-top: 7.25% !important;
+  }
+
+  @include media(desktop, lg-desktop) {
+    padding-top: 5.25% !important;
+  }
 }
