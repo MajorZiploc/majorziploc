@@ -37,9 +37,9 @@ Server will be available at http://127.0.0.1:3000 in your browser
 #### Fix embedded game
 
 As of now, the fallback iframe thumbnail shows. May need some extra iframe setting or server setting to get it working
-./_header and ./netlify.toml are related to server settings
-  should only require one or the other
-  https://docs.netlify.com/routing/headers/#syntax-for-the-headers-file
+./\_header and ./netlify.toml are related to server settings
+should only require one or the other
+https://docs.netlify.com/routing/headers/#syntax-for-the-headers-file
 
 #### Frontend MUI Theme
 
