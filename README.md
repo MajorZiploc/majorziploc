@@ -34,9 +34,10 @@ Server will be available at http://127.0.0.1:3000 in your browser
 
 ### Things to improve
 
-#### Fix embedded game
+#### Fix Play My Game! embedded game and fallback link game
 
-As of now, the fallback iframe thumbnail shows. May need some extra iframe setting or server setting to get it working
+LOCALLY: As of now, the fallback iframe thumbnail shows. May need some extra iframe setting or server setting to get it working
+DEPLOYED: neither work - NOTE: can access on server by going directly to the route, I dont show a link to it on the UI bcuz the game is broken
 ./\_header and ./netlify.toml are related to server settings
 should only require one or the other
 https://docs.netlify.com/routing/headers/#syntax-for-the-headers-file
