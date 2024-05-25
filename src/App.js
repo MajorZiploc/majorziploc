@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import OpenSourceProjects from './components/OpenSourceProjects';
 import AboutMe from './components/AboutMe';
 import TechnicalSummary from './components/TechnicalSummary';
+import PlayGame from './components/PlayGame';
 import { ErrorBoundary } from 'react-error-boundary';
 import { DataProvider } from './context/DataContext';
 import { data } from './data';
@@ -61,6 +62,7 @@ function App() {
                   <Route path='/opensource' element={<OpenSourceProjects />} />
                   <Route path='/aboutme' element={<AboutMe />} />
                   <Route path='/techsummary' element={<TechnicalSummary />} />
+                  <Route path='/playgame' element={<PlayGame />} />
                   {/*<Route path='/contact' element={<Contact />} />*/}
                 </Routes>
               </DataProvider>

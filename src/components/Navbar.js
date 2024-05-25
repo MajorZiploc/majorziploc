@@ -20,6 +20,7 @@ import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import Home from '@mui/icons-material/Home';
 import Apps from '@mui/icons-material/Apps';
 import Brush from '@mui/icons-material/Brush';
+import SportsEsports from '@mui/icons-material/SportsEsports';
 import Build from '@mui/icons-material/Build';
 import { Tooltip } from '@mui/material';
 import Menu from '@mui/material/Menu';
@@ -48,6 +49,7 @@ const menuItems = [
   { listIcon: <Build />, listText: 'Technical Summary', listPath: '/techsummary' },
   { listIcon: <Apps />, listText: 'Open Source Projects', listPath: '/opensource' },
   { listIcon: <Brush />, listText: 'About Me', listPath: '/aboutme' },
+  { listIcon: <SportsEsports />, listText: 'Play my Game!', listPath: '/playgame' },
 ];
 
 /** @type {() => string} */

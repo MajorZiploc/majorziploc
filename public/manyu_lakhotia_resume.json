@@ -14,7 +14,16 @@
   },
   "summary": {
     "description": "Software Developer with 6+ years of work experience in developing web applications, documenting, stand alone applications, cicd, and databases; along with personal experience in art/design, scripting, web scraping, data analytics, and data cleaning.",
-    "roles": ["Frontend Developer", "Backend Developer", "Artist", "Game Developer", "Designer", "Musician", "Scripter", "Web Scraper"]
+    "roles": [
+      "Frontend Developer",
+      "Backend Developer",
+      "Artist",
+      "Game Developer",
+      "Designer",
+      "Musician",
+      "Scripter",
+      "Web Scraper"
+    ]
   },
   "technicalSkills": {
     "sectionHeader": "Technical Skills",
