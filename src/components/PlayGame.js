@@ -1,6 +1,5 @@
 // @ts-check
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import '../styles/Global.scss';
 import '../styles/PlayGame.scss';
@@ -8,14 +7,8 @@ import { useResumeData } from './hooks';
 
 import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import '../styles/Global.scss';
-import '../styles/OurCard.scss';
-import { Menu, MenuItem } from '@mui/material';
 
 /**
  * @typedef {import('../interfaces').ResumeData} ResumeData
