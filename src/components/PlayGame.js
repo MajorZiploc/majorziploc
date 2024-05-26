@@ -31,16 +31,15 @@ const PlayGame = () => {
   const [gameWidgetFailedToLoad, setGameWidgetFailedToLoad] = useState(false);
 
   const handleEmbeddedGameLoaded = e => {
-    const iframe = document.querySelector('.game-widget-iframe-container');
+    const iframe = document.querySelector('.game-iframe');
     // @ts-ignore
-    setGameFailedToLoad(!iframe?.contentDocument);
+    setGameFailedToLoad(!iframe?.contentWindow);
   };
 
   const handleEmbeddedGameWidgetLoaded = e => {
-    const iframe = document.querySelector('.game-iframe');
-    setGameWidgetFailedToLoad(true);
+    const iframe = document.querySelector('.game-widget-iframe-container');
     // @ts-ignore
-    // setGameWidgetFailedToLoad(!iframe?.contentDocument);
+    setGameWidgetFailedToLoad(!iframe?.contentWindow);
   };
 
   return resumeData ? (
