@@ -698,10 +698,15 @@
       "href": "https://majorziploc.itch.io/sticker-book-time-attack",
       "src": "https://itch.io/embed-upload/10510967?color=333333"
     },
-    "link": {
+    "widget": {
       "label": "Sticker Book: Time Attack by MajorZiploc",
       "href": "https://majorziploc.itch.io/sticker-book-time-attack",
       "src": "https://itch.io/embed/2727667"
+    },
+    "link": {
+      "label": "Play Sticker Book: Time Attack on itch.io: https://majorziploc.itch.io/sticker-book-time-attack",
+      "href": "https://itch.io/embed-upload/10513672?color=333333",
+      "src": "/sticker_book_time_attack.png"
     }
   }
 }

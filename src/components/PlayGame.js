@@ -1,9 +1,21 @@
 // @ts-check
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import '../styles/Global.scss';
 import '../styles/PlayGame.scss';
 import { useResumeData } from './hooks';
+
+import Card from '@mui/material/Card';
+import CardActionArea from '@mui/material/CardActionArea';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import '../styles/Global.scss';
+import '../styles/OurCard.scss';
+import { Menu, MenuItem } from '@mui/material';
 
 /**
  * @typedef {import('../interfaces').ResumeData} ResumeData
@@ -16,11 +28,18 @@ const PlayGame = () => {
   /** @type ResumeData */
   const resumeData = useResumeData();
   const [gameFailedToLoad, setGameFailedToLoad] = useState(false);
+  const [gameWidgetFailedToLoad, setGameWidgetFailedToLoad] = useState(false);
 
   const handleEmbeddedGameLoaded = e => {
     const iframe = document.querySelector('.game-iframe');
     // @ts-ignore
-    setGameFailedToLoad(!iframe?.contentDocument);
+    setGameFailedToLoad(!iframe?.contentWindow);
+  };
+
+  const handleEmbeddedGameWidgetLoaded = e => {
+    const iframe = document.querySelector('.game-widget-iframe-container');
+    // @ts-ignore
+    setGameWidgetFailedToLoad(!iframe?.contentWindow);
   };
 
   return resumeData ? (
@@ -33,26 +52,46 @@ const PlayGame = () => {
             src={resumeData.playGame.embedded.src}
             allowFullScreen
             allow='cross-origin-isolated'
-            sandbox="allow-same-origin"
+            sandbox='allow-same-origin'
             onLoad={handleEmbeddedGameLoaded}
           >
             <a href={resumeData.playGame.embedded.href}>{resumeData.playGame.embedded.label}</a>
           </iframe>
         </Box>
-      ) : (
+      ) : !gameWidgetFailedToLoad ? (
         <iframe
-          title={resumeData.playGame.link.label}
-          src={resumeData.playGame.link.src}
-          className='game-link-iframe-container'
+          title={resumeData.playGame.widget.label}
+          src={resumeData.playGame.widget.src}
+          className='game-widget-iframe-container'
           allow='cross-origin-isolated'
-          sandbox="allow-same-origin"
+          sandbox='allow-same-origin'
+          onLoad={handleEmbeddedGameWidgetLoaded}
         >
-          <a href={resumeData.playGame.link.href}>{resumeData.playGame.link.label}</a>
+          <a href={resumeData.playGame.widget.href}>{resumeData.playGame.widget.label}</a>
         </iframe>
+      ) : (
+        <PlayGameLinkCard
+          link={resumeData.playGame.link.href}
+          alt={resumeData.playGame.link.label}
+          image={resumeData.playGame.link.src}
+        />
       )}
     </Box>
   ) : (
     <></>
+  );
+};
+
+/**
+ * @returns {React.ReactElement}
+ */
+const PlayGameLinkCard = ({ link, image, alt }) => {
+  return (
+    <Card className='game-link-container'>
+      <CardActionArea className='game-link-action-area' href={link} target='_blank'>
+        <CardMedia component='img' alt={alt} height='300' image={image} />
+      </CardActionArea>
+    </Card>
   );
 };
 
