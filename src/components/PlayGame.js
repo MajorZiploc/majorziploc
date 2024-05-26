@@ -14,10 +14,11 @@ import '../styles/Global.scss';
  * @typedef {import('../interfaces').ResumeData} ResumeData
  */
 
+// TODO: switch PlayGame impl to this once iframe issues are sorted out from ./README.md
 /**
  * @returns {React.ReactElement}
  */
-const PlayGame = () => {
+const PlayGameFull = () => {
   /** @type ResumeData */
   const resumeData = useResumeData();
   const [gameFailedToLoad, setGameFailedToLoad] = useState(false);
@@ -69,6 +70,26 @@ const PlayGame = () => {
           image={resumeData.playGame.link.src}
         />
       )}
+    </Box>
+  ) : (
+    <></>
+  );
+};
+
+/**
+ * @returns {React.ReactElement}
+ */
+const PlayGame = () => {
+  /** @type ResumeData */
+  const resumeData = useResumeData();
+
+  return resumeData ? (
+    <Box className='game-container'>
+      <PlayGameLinkCard
+        link={resumeData.playGame.link.href}
+        alt={resumeData.playGame.link.label}
+        image={resumeData.playGame.link.src}
+      />
     </Box>
   ) : (
     <></>
