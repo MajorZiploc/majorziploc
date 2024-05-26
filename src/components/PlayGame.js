@@ -33,6 +33,7 @@ const PlayGame = () => {
             src={resumeData.playGame.embedded.src}
             allowFullScreen
             allow='cross-origin-isolated'
+            sandbox="allow-same-origin"
             onLoad={handleEmbeddedGameLoaded}
           >
             <a href={resumeData.playGame.embedded.href}>{resumeData.playGame.embedded.label}</a>
@@ -43,6 +44,8 @@ const PlayGame = () => {
           title={resumeData.playGame.link.label}
           src={resumeData.playGame.link.src}
           className='game-link-iframe-container'
+          allow='cross-origin-isolated'
+          sandbox="allow-same-origin"
         >
           <a href={resumeData.playGame.link.href}>{resumeData.playGame.link.label}</a>
         </iframe>
