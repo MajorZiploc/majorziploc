@@ -52,7 +52,8 @@
           { "name": "express" },
           { "name": "nodejs" },
           { "name": "asp.net mvc" },
-          { "name": "google app suite" }
+          { "name": "google app suite" },
+          { "name": "godot", "shouldExclude": true }
         ]
       },
       {
