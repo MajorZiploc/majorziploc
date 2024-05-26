@@ -21,6 +21,7 @@ export interface Header {
   portfolioRepo: string;
   linkedIn: string;
   github: string;
+  itchio: string;
 }
 
 export interface Summary {

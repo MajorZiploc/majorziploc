@@ -31,7 +31,7 @@ function getHeaderSection(resumeConfig) {
 \\name{${resumeConfig.header.preferredName} ${resumeConfig.header.lastName}}
 
 \\address{ ${resumeConfig.header.phoneNumber} \\\\ \\href{mailto:${resumeConfig.header.email}}{${resumeConfig.header.email}} \\\\ \\href{${resumeConfig.header.portfolio}}{${resumeConfig.header.portfolio}}}
-\\address{\\href{${resumeConfig.header.linkedIn}}{${resumeConfig.header.linkedIn}} \\\\ \\href{${resumeConfig.header.github}}{${resumeConfig.header.github}} }`;
+\\address{\\href{${resumeConfig.header.linkedIn}}{${resumeConfig.header.linkedIn}} \\\\ \\href{${resumeConfig.header.github}}{${resumeConfig.header.github}} \\\\ \\href{${resumeConfig.header.itchio}}{${resumeConfig.header.itchio}} }`;
   return section;
 }
 
