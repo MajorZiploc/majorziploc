@@ -18,7 +18,7 @@ import '../styles/Global.scss';
 /**
  * @returns {React.ReactElement}
  */
-const PlayGameFull = () => {
+export const PlayGameFull = () => {
   /** @type ResumeData */
   const resumeData = useResumeData();
   const [gameFailedToLoad, setGameFailedToLoad] = useState(false);
