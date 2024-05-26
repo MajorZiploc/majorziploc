@@ -136,6 +136,7 @@ export interface Hobbies {
 
 export interface PlayGame {
   embedded: PlayGameEntry;
+  widget: PlayGameEntry;
   link: PlayGameEntry;
 }
 

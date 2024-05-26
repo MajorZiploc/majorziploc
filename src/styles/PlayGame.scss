@@ -49,3 +49,67 @@
     padding-top: 5.25% !important;
   }
 }
+
+.game-link-container {
+  position: relative;
+  width: 100%;
+  right: 10px;
+  margin: 3rem auto;
+  background: #222;
+
+  @include media(sm-mobile) {
+    padding-top: 30.25% !important;
+  }
+
+  @include media(md-mobile) {
+    padding-top: 17.25% !important;
+  }
+
+  @include media(lg-mobile, sm-tablet, lg-tablet) {
+    padding-top: 9.25% !important;
+  }
+
+  @include media(desktop, lg-desktop) {
+    padding-top: 7.25% !important;
+  }
+
+  @include media(desktop, lg-desktop) {
+    padding-top: 5.25% !important;
+  }
+
+  @include lg-desktop {
+    & {
+      max-width: 28.5rem;
+    }
+  }
+
+  @include desktop {
+    & {
+      max-width: 24.5rem;
+    }
+  }
+
+  @include lg-tablet {
+    & {
+      max-width: 20.5rem;
+    }
+  }
+
+  @include sm-tablet {
+    & {
+      max-width: 18.5rem;
+    }
+  }
+
+  @include lg-mobile {
+    & {
+      max-width: 29.5rem;
+    }
+  }
+}
+
+.game-link-action-area {
+  &:hover {
+    background-color: rgba(30, 30, 30, 30);
+  }
+}
