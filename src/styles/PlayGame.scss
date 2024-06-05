@@ -52,8 +52,6 @@
 
 .game-link-container {
   position: relative;
-  width: 100%;
-  right: 10px;
   margin: 3rem auto;
   background: #222;
 
@@ -77,33 +75,13 @@
     padding-top: 5.25% !important;
   }
 
-  @include lg-desktop {
-    & {
-      max-width: 28.5rem;
-    }
-  }
-
-  @include desktop {
-    & {
-      max-width: 24.5rem;
-    }
-  }
-
-  @include lg-tablet {
-    & {
-      max-width: 20.5rem;
-    }
-  }
-
-  @include sm-tablet {
+  @include media(sm-mobile, md-mobile) {
     & {
       max-width: 18.5rem;
     }
-  }
 
-  @include lg-mobile {
-    & {
-      max-width: 29.5rem;
+    .MuiCardMedia-root {
+      object-fit: scale-down;
     }
   }
 }
