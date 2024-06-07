@@ -143,7 +143,7 @@
         "location": "New York, NY",
         "points": [
           {
-            "text": "Utilized tools like: react, redux, postgresql, django, celery, rabbitmq, docker, redis, spring boot, bash, microservices, aws"
+            "text": "Utilized: react, redux, postgresql, django, celery, rabbitmq, docker, redis, spring boot, bash, microservices, aws"
           }
         ],
         "icon": {
@@ -167,17 +167,17 @@
         "location": "Minneapolis, MN",
         "points": [
           {
-            "text": "Improved authentication by moving from homebrewed auth solution to keycloak"
+            "text": "SOC2: Improved authentication by moving from homebrewed auth solution to keycloak"
           },
           {
-            "text": "Use krita and inkscape to design frontend mockups and create svg icons"
+            "text": "Design: Use krita and inkscape to design frontend mockups and create svg icons"
           },
           {
-            "text": "Work with geospatial data to convey profit and cost information of fields",
+            "text": "Processing: Work with geospatial data to convey profit and cost information of fields",
             "shouldExclude": true
           },
           {
-            "text": "Utilized tools like: react, redux, postgresql, django, celery, rabbitmq, docker, redis, spring boot, bash, microservices, aws"
+            "text": "Utilized: react, redux, postgresql, django, celery, rabbitmq, docker, redis, spring boot, bash, microservices, aws"
           }
         ]
       },
@@ -197,19 +197,19 @@
         "sectorSpacing": "1.675cm",
         "location": "Lafayette, LA",
         "points": [
-          { "text": "Led development of an ambulance scheduling system" },
-          { "text": "Introduced containerization workflow with docker and wsl", "shouldExclude": true },
-          { "text": "Introduced automated UI and API testing using Cypress.io" },
+          { "text": "Leadership: Led development of an ambulance scheduling system" },
+          { "text": "Modernization: Introduced containerization workflow with docker and wsl", "shouldExclude": true },
+          { "text": "Testing: Introduced automated UI and API testing using Cypress.io" },
           {
-            "text": "Improved powershell, google app suite scripts (with npm clasp) and documentation practices",
+            "text": "Process: Improved powershell, google app suite scripts (with npm clasp) and documentation practices",
             "shouldExclude": true
           },
           {
-            "text": "Created interface for interacting/managing over 100 projects using just command runner, bash, and webscraper.io",
+            "text": "Process: Created interface for interacting/managing over 100 projects using just command runner, bash, and webscraper.io",
             "shouldExclude": true
           },
           {
-            "text": "Utilized tools like: F#, C#, react, redux, wsl, mssql, docker, just, bash, microservices, aws, Octopus Deploy, Teamcity"
+            "text": "Utilized: F#, C#, react, redux, wsl, mssql, docker, just, bash, microservices, aws, Octopus Deploy, Teamcity"
           }
         ]
       },
@@ -230,14 +230,14 @@
         "location": "Lafayette, LA",
         "points": [
           {
-            "text": "Created dashboard to investigate potential malware samples"
+            "text": "Visualization: Created dashboard to investigate potential malware samples"
           },
           {
-            "text": "Undertook greenfield development and research to scout new projects",
+            "text": "Discovery: Undertook greenfield development and research to scout new projects",
             "shouldExclude": true
           },
           {
-            "text": "Utilized tools like: django, react, redux, docker, mongodb, redis, rpm, bash, azure, ansible, terraform, packer, just"
+            "text": "Utilized: django, react, redux, docker, mongodb, redis, rpm, bash, azure, ansible, terraform, packer, just"
           }
         ]
       },
@@ -258,15 +258,15 @@
         "location": "Lafayette, LA",
         "points": [
           {
-            "text": "Migrated legacy health insurance portal to more modern solutions",
+            "text": "Modernization: Migrated legacy health insurance portal to more modern solutions",
             "shouldExclude": false
           },
           {
-            "text": "Wrote automated UI and API test suites a health insurance website",
+            "text": "Testing: Wrote automated UI and API test suites a health insurance website",
             "shouldExclude": true
           },
           {
-            "text": "Utilized tools like: django, react, redux, docker, redis, mongodb, bash, openshift, vscode"
+            "text": "Utilized: django, react, redux, docker, redis, mongodb, bash, openshift, vscode"
           }
         ]
       },
@@ -286,10 +286,10 @@
         "location": "Lafayette, LA",
         "points": [
           {
-            "text": "Read research papers and books on programming language design and type theory",
+            "text": "Research: Read research papers and books on programming language design and type theory",
             "shouldExclude": true
           },
-          { "text": "Taught supplemental sessions for a programming languages course", "shouldExclude": true }
+          { "text": "Mentorship: Taught supplemental sessions for a programming languages course", "shouldExclude": true }
         ]
       },
       {
@@ -309,14 +309,14 @@
         "location": "Lafayette, LA",
         "points": [
           {
-            "text": "Developed a website using asp.net mvc for network monitoring",
+            "text": "Visualization: Developed a website using asp.net mvc for network monitoring",
             "shouldExclude": true
           },
           {
-            "text": "Developed a stand alone java swing app for analyzing geospatial water levels from large NetCDF files"
+            "text": "Processing: Developed a stand alone java swing app for analyzing geospatial water levels from large NetCDF files"
           },
           {
-            "text": "Utilized tools like: java swing, asp.net mvc, eclipse, visual studio, postgresql, mssql",
+            "text": "Utilized: java swing, asp.net mvc, eclipse, visual studio, postgresql, mssql",
             "shouldExclude": true
           }
         ]
@@ -343,22 +343,22 @@
         "shouldExclude": true,
         "points": [
           {
-            "text": "Built a dashboard to analyze sales, inventory, and customer spending patterns"
+            "text": "Visualization: Built a dashboard to analyze sales, inventory, and customer spending patterns"
           },
           {
-            "text": "Wrote MSAccess queries to fill in missing gaps of POS software",
+            "text": "Processing: Wrote MSAccess queries to fill in missing gaps of POS software",
             "shouldExclude": true
           },
           {
-            "text": "Wrote webscraper.io/pandas scripts to scrape/analyze/manage our online Reverb.com item listings",
+            "text": "ETL: Wrote webscraper.io/pandas scripts to scrape/analyze/manage our online Reverb.com item listings",
             "shouldExclude": true
           },
           {
-            "text": "Wrote powershell and google app suite scripts for various miscellaneous tasks",
+            "text": "Automation: Wrote powershell and google app suite scripts for various miscellaneous tasks",
             "shouldExclude": true
           },
           {
-            "text": "Utilized tools like: django, react, redux, docker, redis, bash, aws, postgresql, MSAccess, google app suite, powershell"
+            "text": "Utilized: django, react, redux, docker, redis, bash, aws, postgresql, MSAccess, google app suite, powershell"
           }
         ],
         "icon": {
