@@ -173,7 +173,7 @@
         "location": "Minneapolis, MN",
         "points": [
           {
-            "text": "SOC2: Improved authentication by moving from homebrewed auth solution to keycloak"
+            "text": "Security: Improved authentication by moving from homebrewed auth solution to keycloak"
           },
           {
             "text": "Design: Use krita and inkscape to design frontend mockups and create svg icons"
