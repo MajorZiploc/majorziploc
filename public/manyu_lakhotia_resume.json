@@ -143,6 +143,12 @@
         "location": "New York, NY",
         "points": [
           {
+            "text": "Mapping: consume data from many customers in many formats to a unified format for processing"
+          },
+          {
+            "text": "Discovery: Undertook greenfield development and research to scout new projects"
+          },
+          {
             "text": "Utilized: react, redux, postgresql, django, celery, rabbitmq, docker, redis, spring boot, bash, microservices, aws"
           }
         ],
@@ -284,6 +290,7 @@
         "sector": "Programming Languages",
         "sectorSpacing": "1.1cm",
         "location": "Lafayette, LA",
+        "shouldExclude": true,
         "points": [
           {
             "text": "Research: Read research papers and books on programming language design and type theory",
