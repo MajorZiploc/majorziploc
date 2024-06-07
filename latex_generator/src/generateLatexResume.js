@@ -25,13 +25,18 @@ function groupBy(list, grouper) {
   }, {});
 }
 
+/** @type {(str: string) => string} */
+function toShortUrl(str) {
+  return str.replace(/^https:\/\//, "");
+}
+
 /** @type {(resumeConfig: ResumeData) => string} */
 function getHeaderSection(resumeConfig) {
   const section = `
 \\name{${resumeConfig.header.preferredName} ${resumeConfig.header.lastName}}
 
-\\address{ ${resumeConfig.header.phoneNumber} \\\\ \\href{mailto:${resumeConfig.header.email}}{${resumeConfig.header.email}} \\\\ \\href{${resumeConfig.header.portfolio}}{${resumeConfig.header.portfolio}}}
-\\address{\\href{${resumeConfig.header.linkedIn}}{${resumeConfig.header.linkedIn}} \\\\ \\href{${resumeConfig.header.github}}{${resumeConfig.header.github}} \\\\ \\href{${resumeConfig.header.itchio}}{${resumeConfig.header.itchio}} }`;
+\\address{ ${resumeConfig.header.phoneNumber} \\\\ \\href{mailto:${resumeConfig.header.email}}{${resumeConfig.header.email}} \\\\ \\href{${resumeConfig.header.portfolio}}{${toShortUrl(resumeConfig.header.portfolio)}}}
+\\address{\\href{${resumeConfig.header.linkedIn}}{${toShortUrl(resumeConfig.header.linkedIn)}} \\\\ \\href{${resumeConfig.header.github}}{${toShortUrl(resumeConfig.header.github)}} \\\\ \\href{${resumeConfig.header.itchio}}{${toShortUrl(resumeConfig.header.itchio)}} }`;
   return section;
 }
 
