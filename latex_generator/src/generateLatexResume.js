@@ -27,7 +27,7 @@ function groupBy(list, grouper) {
 
 /** @type {(str: string) => string} */
 function toShortUrl(str) {
-  return str.replace(/^https:\/\//, "");
+  return str.replace(/^https:\/\//, '');
 }
 
 /** @type {(resumeConfig: ResumeData) => string} */

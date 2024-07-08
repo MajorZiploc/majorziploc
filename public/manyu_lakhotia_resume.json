@@ -296,7 +296,10 @@
             "text": "Research: Read research papers and books on programming language design and type theory",
             "shouldExclude": true
           },
-          { "text": "Mentorship: Taught supplemental sessions for a programming languages course", "shouldExclude": true }
+          {
+            "text": "Mentorship: Taught supplemental sessions for a programming languages course",
+            "shouldExclude": true
+          }
         ]
       },
       {
