@@ -296,7 +296,10 @@
             "text": "Research: Read research papers and books on programming language design and type theory",
             "shouldExclude": true
           },
-          { "text": "Mentorship: Taught supplemental sessions for a programming languages course", "shouldExclude": true }
+          {
+            "text": "Mentorship: Taught supplemental sessions for a programming languages course",
+            "shouldExclude": true
+          }
         ]
       },
       {
@@ -431,6 +434,25 @@
         "roles": [{ "name": "minor contributor" }],
         "shouldExclude": false,
         "contributions": ["Addressed various deprecation issues related to neovim updates"]
+      },
+      {
+        "description": "A turn based game with quick time event mechanics for parrying",
+        "languages": ["gdscript"],
+        "availableOn": "itch.io",
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/sticker_book_moments"
+          },
+          "supporting": [
+            {
+              "href": "https://majorziploc.itch.io/sticker-book-time-attack"
+            }
+          ]
+        },
+        "tooling": [{ "name": "Godot 4" }],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": false,
+        "contributions": ["Created the idea and core implementation as a whole"]
       },
       {
         "description": "Language utilities for Result, Option, Async and other utility functions",
