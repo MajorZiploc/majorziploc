@@ -433,6 +433,25 @@
         "contributions": ["Addressed various deprecation issues related to neovim updates"]
       },
       {
+        "description": "A turn based game with quick time event mechanics for parrying",
+        "languages": ["gdscript"],
+        "availableOn": "itch.io",
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/sticker_book_moments"
+          },
+          "supporting": [
+            {
+              "href": "https://majorziploc.itch.io/sticker-book-time-attack"
+            }
+          ]
+        },
+        "tooling": [{ "name": "Godot 4" }],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": false,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
         "description": "Language utilities for Result, Option, Async and other utility functions",
         "languages": ["F#"],
         "availableOn": "nuget",

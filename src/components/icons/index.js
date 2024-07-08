@@ -8,6 +8,7 @@ export { default as Dumbbell } from './Dumbbell';
 export { default as Frontend } from './Frontend';
 export { default as Fsharp } from './Fsharp';
 export { default as GirlSwordBuildingAlleyOpt } from './GirlSwordBuildingAlleyOpt';
+export { default as Godot } from './Godot';
 export { default as Guitar } from './Guitar';
 export { default as Headless } from './Headless';
 export { default as Java } from './Java';

@@ -5,6 +5,7 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import OurCard from './OurCard';
 
+import GodotIcon from './icons/Godot';
 import FsharpIcon from './icons/Fsharp';
 import TypescriptIcon from './icons/Typescript';
 import JavascriptIcon from './icons/Javascript';
@@ -36,6 +37,7 @@ const OWNER = 'owner';
 const getImage = project =>
   // prettier-ignore
   project.tooling.some(t => t.name.match(/django/i)) && project.tooling.some(t => t.name.match(/react/i)) ? (props) => <DjangoReactIcon {...{...props, viewBox: '90 100 250 250', backgroundelement: {stroke: '#00d1f1'}, foregroundelement: {stroke: '#097e20'}}} />
+  : project.languages[0].match(/(gdscript)/i) ? (props) => <GodotIcon {...{...props, viewBox: '0 0  1000 1000'}} />
   : project.languages[0].match(/(f#|fsharp)/i) ? (props) => <FsharpIcon {...{...props, viewBox: '1 1 30 30'}} />
   : project.languages[0].match(/(\bts\b|typescript)/i) ? (props) => <TypescriptIcon {...{...props}} />
   : project.languages[0].match(/(\bjs\b|javascript)/i) ? (props) => <JavascriptIcon {...{...props}} />
