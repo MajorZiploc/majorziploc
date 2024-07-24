@@ -310,7 +310,7 @@
         "workDateRanges": [
           {
             "beginDate": "12/01/2016",
-            "endDate": "12/01/2018"
+            "endDate": "04/01/2018"
           }
         ],
         "company": "Wetlands Research Center",
@@ -451,7 +451,7 @@
         },
         "tooling": [{ "name": "Godot 4" }],
         "roles": [{ "name": "owner" }, { "name": "major contributor" }],
-        "shouldExclude": false,
+        "shouldExclude": true,
         "contributions": ["Created the idea and core implementation as a whole"]
       },
       {
