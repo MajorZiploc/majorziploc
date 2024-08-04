@@ -419,8 +419,9 @@
         ]
       },
       {
-        "description": "A nvim plugin for remote devcontainers using same configs as vscode devcontainers",
+        "description": "A nvim plugin for containers.dev support",
         "languages": ["lua"],
+        "availableOn": "github",
         "links": {
           "main": {
             "href": "https://github.com/esensar/nvim-dev-container"
