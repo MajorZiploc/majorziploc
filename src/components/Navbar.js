@@ -116,7 +116,8 @@ const Navbar = () => {
                 Portfolio
               </Typography>
             </Link>
-            <DownloadMenu />
+            {/* removed due to potential charges from out bound traffic */}
+            {/* <DownloadMenu /> */}
           </Toolbar>
         </AppBar>
       </Box>
