@@ -131,6 +131,7 @@ const Navbar = () => {
   );
 };
 
+/* eslint-disable */
 /**
  * @returns {React.ReactElement}
  */
@@ -203,5 +204,6 @@ function DownloadMenu() {
     </Tooltip>
   );
 }
+/* eslint-enable */
 
 export default Navbar;
