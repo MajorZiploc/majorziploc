@@ -116,8 +116,7 @@ const Navbar = () => {
                 Portfolio
               </Typography>
             </Link>
-            {/* removed due to potential charges from out bound traffic */}
-            {/* <DownloadMenu /> */}
+            <DownloadMenu />
           </Toolbar>
         </AppBar>
       </Box>
@@ -131,7 +130,6 @@ const Navbar = () => {
   );
 };
 
-/* eslint-disable */
 /**
  * @returns {React.ReactElement}
  */
@@ -204,6 +202,5 @@ function DownloadMenu() {
     </Tooltip>
   );
 }
-/* eslint-enable */
 
 export default Navbar;
