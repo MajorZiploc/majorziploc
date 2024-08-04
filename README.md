@@ -4,7 +4,7 @@
 
 A portfolio single page application using React and Material UI
 
-## Site available here [Portfolio](https://portfolio.majorziploc.com/)
+## Site available here [Portfolio](https://majorziploc.onrender.com)
 
 ### To install dependency
 
