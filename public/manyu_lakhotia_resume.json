@@ -123,6 +123,42 @@
     "sectionHeader": "Experience",
     "jobs": [
       {
+        "title": "Software Developer",
+        "timeDedicated": "Full time",
+        "teamSize": "4-10",
+        "workLocation": "Mostly Remote",
+        "workDateRanges": [
+          {
+            "beginDate": "03/01/2020",
+            "endDate": "04/29/2022"
+          },
+          {
+            "beginDate": "08/21/2024",
+            "endDate": "Present"
+          }
+        ],
+        "company": "Acadian Ambulance",
+        "sector": "Medical",
+        "sectorSpacing": "1.675cm",
+        "location": "Lafayette, LA",
+        "points": [
+          { "text": "Leadership: Led development of an ambulance scheduling system" },
+          { "text": "Modernization: Introduced containerization workflow with docker and wsl", "shouldExclude": true },
+          { "text": "Testing: Introduced automated UI and API testing using Cypress.io" },
+          {
+            "text": "Process: Improved powershell, google app suite scripts (with npm clasp) and documentation practices",
+            "shouldExclude": true
+          },
+          {
+            "text": "Process: Created interface for interacting/managing over 100 projects using just command runner, bash, and webscraper.io",
+            "shouldExclude": true
+          },
+          {
+            "text": "Utilized: F#, C#, react, redux, wsl, mssql, docker, just, bash, microservices, aws, Octopus Deploy, Teamcity"
+          }
+        ]
+      },
+      {
         "title": "Software Engineer",
         "timeDedicated": "Full time",
         "teamSize": "4-8",
@@ -130,7 +166,7 @@
         "workDateRanges": [
           {
             "beginDate": "02/01/2024",
-            "endDate": "Present"
+            "endDate": "08/15/2024"
           }
         ],
         "company": "Optimal Dynamics",
@@ -180,38 +216,6 @@
           },
           {
             "text": "Utilized: react, redux, postgresql, django, celery, rabbitmq, docker, redis, spring boot, bash, microservices, aws"
-          }
-        ]
-      },
-      {
-        "title": "Software Developer",
-        "timeDedicated": "Full time",
-        "teamSize": "4-10",
-        "workLocation": "Mostly Remote",
-        "workDateRanges": [
-          {
-            "beginDate": "03/01/2020",
-            "endDate": "04/29/2022"
-          }
-        ],
-        "company": "Acadian Ambulance",
-        "sector": "Medical",
-        "sectorSpacing": "1.675cm",
-        "location": "Lafayette, LA",
-        "points": [
-          { "text": "Leadership: Led development of an ambulance scheduling system" },
-          { "text": "Modernization: Introduced containerization workflow with docker and wsl", "shouldExclude": true },
-          { "text": "Testing: Introduced automated UI and API testing using Cypress.io" },
-          {
-            "text": "Process: Improved powershell, google app suite scripts (with npm clasp) and documentation practices",
-            "shouldExclude": true
-          },
-          {
-            "text": "Process: Created interface for interacting/managing over 100 projects using just command runner, bash, and webscraper.io",
-            "shouldExclude": true
-          },
-          {
-            "text": "Utilized: F#, C#, react, redux, wsl, mssql, docker, just, bash, microservices, aws, Octopus Deploy, Teamcity"
           }
         ]
       },
