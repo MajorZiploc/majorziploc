@@ -659,12 +659,17 @@
       "items": [
         {
           "title": "Art",
-          "description": "At 29, I picked up art inspired by my love for manga and anime. One day I hope to either write my own manga or make my own game",
+          "description": "At 29, I picked up art inspired by my love for manga and anime. I mainly draw for my webcomic and game along with one off illustrations or animations",
           "links": {
             "main": {
-              "href": "https://www.deviantart.com/majorziploc/gallery/all",
-              "label": "Check out my art"
-            }
+              "href": "https://www.webtoons.com/en/canvas/orchestral-calling/list?title_no=987895",
+              "label": "Check out my webcomic"
+            },
+            "supporting": [
+              {
+                "href": "https://www.deviantart.com/majorziploc/gallery/all"
+              }
+            ]
           }
         },
         {
