@@ -31,3 +31,5 @@ latex_generator/**/*.log
 latex_generator/**/*.pdf
 
 Session.vim
+
+cscope.out
