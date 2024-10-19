@@ -29,3 +29,7 @@ latex_generator/**/*.aux
 latex_generator/**/*.out
 latex_generator/**/*.log
 latex_generator/**/*.pdf
+
+Session.vim
+
+cscope.out
