@@ -667,7 +667,12 @@
             },
             "supporting": [
               {
-                "href": "https://www.deviantart.com/majorziploc/gallery/all"
+                "href": "https://www.instagram.com/majorziploc/",
+                "label": "Instagram"
+              },
+              {
+                "href": "https://www.deviantart.com/majorziploc/gallery/all",
+                "label": "Deviant Art"
               }
             ]
           }
