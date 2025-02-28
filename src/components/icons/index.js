@@ -2,6 +2,7 @@ export { default as Agriculture } from './Agriculture';
 export { default as Aquaculture } from './Aquaculture';
 export { default as Backend } from './Backend';
 export { default as CyberSecurity } from './CyberSecurity';
+export { default as Design } from './Design';
 export { default as Devops } from './Devops';
 export { default as DjangoReact } from './DjangoReact';
 export { default as Dumbbell } from './Dumbbell';

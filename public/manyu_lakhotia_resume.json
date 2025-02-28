@@ -36,8 +36,6 @@
           { "name": "html" },
           { "name": "material ui" },
           { "name": "bootstrap" },
-          { "name": "krita" },
-          { "name": "inkscape" },
           { "name": "winforms" },
           { "name": "cypress.io" }
         ]
@@ -116,6 +114,13 @@
         "title": "Operating Systems",
         "tools": [{ "name": "mac" }, { "name": "ubuntu" }, { "name": "wsl ubuntu" }, { "name": "windows" }],
         "shouldExclude": true
+      },
+      {
+        "title": "Design",
+        "tools": [
+          { "name": "krita" },
+          { "name": "inkscape" }
+        ]
       }
     ]
   },

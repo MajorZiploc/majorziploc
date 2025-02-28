@@ -62,6 +62,9 @@ function getTechnicalSkillsSection(resumeConfig, latexFormat) {
     if (ele.title.match(/^(Backend|Testing|Headless)$/i)) {
       return 'Backend/Testing/Headless';
     }
+    if (ele.title.match(/^(Frontend|Design)$/i)) {
+      return 'Frontend/Design';
+    }
     return ele.title;
   };
   const skillsToExclude = new Set(resumeConfig.technicalSkills.items.filter(i => i.shouldExclude).map(i => i.title));
