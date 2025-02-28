@@ -33,11 +33,11 @@ const getImage = hobby =>
   hobby.title.match(/(programming)/i) ? (props) => <LaptopIcon {...{...props, stroke: defaultSvgStyles.stroke}} />
   : hobby.title.match(/(running)/i) ? (props) => <RunningIcon {...{...props, fill: defaultSvgStyles.fill}} />
   : hobby.title.match(/(working out)/i) ? (props) => <DumbbellIcon {...{...props, viewBox: '2 2 20 20', fill: defaultSvgStyles.fill}} />
-  : hobby.title.match(/(guitar)/i) ? (props) => <GuitarIcon {...{...props, viewBox: '-10 -10 530 530', stroke: defaultSvgStyles.stroke, fill: defaultSvgStyles.fill}} />
+  : hobby.title.match(/(guitar)/i) ? (props) => <GuitarIcon {...{...props, viewBox: '-10 -10 530 530', fill: defaultSvgStyles.fill}} />
   : hobby.title.match(/(nutrition)/i) ? (props) => <NutritionIcon {...{...props, viewBox: '0 -5 256 256', fill: defaultSvgStyles.fill}} />
   : hobby.title.match(/(slack)/i) ? (props) => <SlackliningIcon {...{...props, viewBox: '2 1 55 55', fill: defaultSvgStyles.fill, }} />
   : hobby.title.match(/(skate)/i) ? (props) => <SkateboardingIcon {...{...props, stroke: defaultSvgStyles.stroke}} />
-  : hobby.title.match(/(sketch|art)/i) ? (props) => <SketchingIcon {...{...props, stroke: defaultSvgStyles.stroke}} />
+  : hobby.title.match(/(sketch|art)/i) ? (props) => <SketchingIcon {...{...props, viewBox: '2 1 21 21', fill: defaultSvgStyles.fill }} />
   : hobby.title.match(/(game dev)/i) ? (props) => <VideoGameController {...{...props, fill: defaultSvgStyles.fill}} />
   : devIconDarkTransparent;
 
