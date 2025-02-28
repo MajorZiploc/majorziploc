@@ -36,8 +36,6 @@
           { "name": "html" },
           { "name": "material ui" },
           { "name": "bootstrap" },
-          { "name": "krita" },
-          { "name": "inkscape" },
           { "name": "winforms" },
           { "name": "cypress.io" }
         ]
@@ -50,17 +48,7 @@
           { "name": "nodejs" },
           { "name": "asp.net mvc" },
           { "name": "google app suite" },
-          { "name": "godot", "shouldExclude": true }
-        ]
-      },
-      {
-        "title": "Testing",
-        "tools": [
-          { "name": "jest" },
-          { "name": "tape", "shouldExclude": true },
-          { "name": "expecto", "shouldExclude": true },
-          { "name": "pester", "shouldExclude": true },
-          { "name": "bats", "shouldExclude": true }
+          { "name": "godot" }
         ]
       },
       {
@@ -110,12 +98,33 @@
       },
       {
         "title": "Headless",
-        "tools": [{ "name": "pandas" }, { "name": "webscraper.io" }, { "name": "tampermonkey" }]
+        "tools": [
+          { "name": "pandas" },
+          { "name": "webscraper.io" },
+          { "name": "tampermonkey", "shouldExclude": true }
+        ]
+      },
+      {
+        "title": "Testing",
+        "tools": [
+          { "name": "jest" },
+          { "name": "tape", "shouldExclude": true },
+          { "name": "expecto", "shouldExclude": true },
+          { "name": "pester", "shouldExclude": true },
+          { "name": "bats", "shouldExclude": true }
+        ]
       },
       {
         "title": "Operating Systems",
         "tools": [{ "name": "mac" }, { "name": "ubuntu" }, { "name": "wsl ubuntu" }, { "name": "windows" }],
         "shouldExclude": true
+      },
+      {
+        "title": "Design",
+        "tools": [
+          { "name": "krita" },
+          { "name": "inkscape" }
+        ]
       }
     ]
   },

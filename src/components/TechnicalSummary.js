@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import OurCard from './OurCard';
 
 import FrontendIcon from './icons/Frontend';
+import DesignIcon from './icons/Design';
 import BackendIcon from './icons/Backend';
 import TestingIcon from './icons/Testing';
 import HeadlessIcon from './icons/Headless';
@@ -29,6 +30,7 @@ import '../styles/Global.scss';
 const getImage = item =>
   // prettier-ignore
   item.title.match(/(Frontend)/i) ? (props) => <FrontendIcon {...{...props, viewBox: '-20 -20 530 530', fill: defaultSvgStyles.fill}} />
+  : item.title.match(/(Design)/i) ? (props) => <DesignIcon {...{...props, viewBox: '-2 -2 63 63', fill: defaultSvgStyles.fill}} />
   : item.title.match(/(Backend)/i) ? (props) => <BackendIcon {...{...props, fill: defaultSvgStyles.fill}} />
   : item.title.match(/(Testing)/i) ? (props) => <TestingIcon {...{...props, fill: defaultSvgStyles.fill}} />
   : item.title.match(/(Headless)/i) ? (props) => <HeadlessIcon {...{...props, viewBox: '10 -5 276 276', fill: defaultSvgStyles.fill}} />
