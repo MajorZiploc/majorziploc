@@ -52,16 +52,6 @@
         ]
       },
       {
-        "title": "Testing",
-        "tools": [
-          { "name": "jest" },
-          { "name": "tape", "shouldExclude": true },
-          { "name": "expecto", "shouldExclude": true },
-          { "name": "pester", "shouldExclude": true },
-          { "name": "bats", "shouldExclude": true }
-        ]
-      },
-      {
         "title": "Languages",
         "tools": [
           { "name": "javascript" },
@@ -112,6 +102,16 @@
           { "name": "pandas" },
           { "name": "webscraper.io" },
           { "name": "tampermonkey", "shouldExclude": true }
+        ]
+      },
+      {
+        "title": "Testing",
+        "tools": [
+          { "name": "jest" },
+          { "name": "tape", "shouldExclude": true },
+          { "name": "expecto", "shouldExclude": true },
+          { "name": "pester", "shouldExclude": true },
+          { "name": "bats", "shouldExclude": true }
         ]
       },
       {
