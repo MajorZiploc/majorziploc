@@ -50,7 +50,7 @@
     right: -0.625rem;
     top: calc(50% - 5px);
     border-style: solid;
-    border-color: tomato tomato transparent transparent;
+    border-color: #EA6750 #EA6750 transparent transparent;
     border-width: 0.625rem;
     transform: rotate(45deg);
   }
@@ -84,7 +84,7 @@
     &:nth-of-type(2n):before {
       right: auto;
       left: -0.625rem;
-      border-color: transparent transparent tomato tomato;
+      border-color: transparent transparent #EA6750 #EA6750;
     }
   }
 }
@@ -94,9 +94,9 @@
   max-width: 23.375rem;
   margin: 0 3rem 0 auto;
   font-size: 1.8rem;
-  color: white;
+  color: black;
   font-weight: 500;
-  background: tomato;
+  background: #EA6750;
   line-height: 1;
   padding: 0.5rem 1rem;
 
@@ -127,7 +127,7 @@
 }
 
 .body1 {
-  color: tomato;
+  color: #EA6750;
 }
 
 .subtitle1 {
@@ -135,5 +135,5 @@
 }
 
 .subtitle2 {
-  color: tomato;
+  color: #EA6750;
 }
