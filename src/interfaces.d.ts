@@ -164,7 +164,7 @@ export type GenericItem = Partial<HobbiesItem> & Partial<OpenSourceProjectsItem>
 export interface OurCardProps {
   item: GenericItem;
   cardContentBodies: (string | ((i: number) => JSX.Element))[];
-  getImage: (item: GenericItem) => CardImage;
+  getImage: (item: GenericItem) => (props: any) => JSX.Element;
   getTitle: (item: GenericItem) => string;
   mainLinkButtonText?: string;
   supportingLinkButtonText?: string;

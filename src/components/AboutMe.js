@@ -27,7 +27,7 @@ import '../styles/Global.scss';
  * @typedef {import('../interfaces').CardImage} CardImage
  */
 
-/** @type {(hobby: HobbiesItem) => CardImage} */
+/** @type {(hobby: HobbiesItem) => (props: any) => JSX.Element} */
 const getImage = hobby =>
   // prettier-ignore
   hobby.title.match(/(programming)/i) ? (props) => <LaptopIcon {...{...props, stroke: defaultSvgStyles.stroke}} />
