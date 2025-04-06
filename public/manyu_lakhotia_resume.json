@@ -30,9 +30,10 @@
         "tools": [
           { "name": "react" },
           { "name": "redux" },
+          { "name": "react-native" },
           { "name": "jquery" },
           { "name": "css" },
-          { "name": "sass" },
+          { "name": "sass", "shouldExclude": true },
           { "name": "html" },
           { "name": "material ui" },
           { "name": "bootstrap" },
@@ -668,7 +669,7 @@
       "items": [
         {
           "title": "Art",
-          "description": "At 29, I picked up art inspired by my love for manga and anime. I mainly draw for my webcomic and game along with one off illustrations or animations",
+          "description": "At 29, I picked up art inspired by my love for manga and anime. I mainly draw for my webcomic, game, and etsy shop; along with one off illustrations or animations",
           "links": {
             "main": {
               "href": "https://www.webtoons.com/en/canvas/orchestral-calling/list?title_no=987895",
@@ -697,7 +698,12 @@
             "main": {
               "href": "https://majorziploc.itch.io/sticker-book-time-attack",
               "label": "Check out my game demo"
-            }
+            },
+            "supporting": [
+              {
+                "href": "https://github.com/MajorZiploc/sticker_book_moments"
+              }
+            ]
           }
         },
         {
