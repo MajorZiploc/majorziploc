@@ -30,9 +30,10 @@
         "tools": [
           { "name": "react" },
           { "name": "redux" },
+          { "name": "react-native" },
           { "name": "jquery" },
           { "name": "css" },
-          { "name": "sass" },
+          { "name": "sass", "shouldExclude": true },
           { "name": "html" },
           { "name": "material ui" },
           { "name": "bootstrap" },
