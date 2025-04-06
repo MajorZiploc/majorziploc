@@ -698,7 +698,12 @@
             "main": {
               "href": "https://majorziploc.itch.io/sticker-book-time-attack",
               "label": "Check out my game demo"
-            }
+            },
+            "supporting": [
+              {
+                "href": "https://github.com/MajorZiploc/sticker_book_moments"
+              }
+            ]
           }
         },
         {
