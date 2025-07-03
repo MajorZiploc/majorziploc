@@ -562,6 +562,19 @@
         "contributions": ["Created the idea and core implementation as a whole"]
       },
       {
+        "description": "A vim/nvim plugin to get the current context pinned to the top of screen",
+        "languages": ["vimscript"],
+        "links": {
+          "main": {
+            "href": "https://github.com/MajorZiploc/sticky_header.vim"
+          }
+        },
+        "tooling": [],
+        "roles": [{ "name": "owner" }, { "name": "major contributor" }],
+        "shouldExclude": true,
+        "contributions": ["Created the idea and core implementation as a whole"]
+      },
+      {
         "description": "A wrapper over lodash to help test api's and much more",
         "languages": ["typescript"],
         "availableOn": "npm",
