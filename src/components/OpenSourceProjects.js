@@ -198,7 +198,7 @@ const OpenSourceProjects = () => {
           <div className='openSourceTextColor noMatches'>No Matches!</div>
         ) : (
           shownOpenSourceProjects?.items?.map(project => (
-            <Grid item xs={12} sm={8} md={4} key={project.description}>
+            <Grid size={{xs: 12, sm: 8, md: 4}} key={project.title}>
               <OurCard
                 {...{
                   getImage,
