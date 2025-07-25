@@ -10,6 +10,7 @@ import avatar from '../avatar.jpg';
 import { useResumeData } from './hooks';
 import { padTypeAnimationTimings } from '../utils';
 import '../styles/Header.scss';
+import ShaderExample from './ShaderExample';
 
 /**
  * @typedef {import('../interfaces').ResumeData} ResumeData
@@ -24,6 +25,7 @@ const Header = () => {
 
   return resumeData ? (
     <Box className='headerBackground'>
+      <ShaderExample />
       <div className='typedContainer'>
         <Grid container justifyContent='center'>
           <Avatar
