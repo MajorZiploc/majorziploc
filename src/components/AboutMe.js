@@ -60,7 +60,7 @@ const AboutMe = () => {
       </Typography>
       <Grid container justifyContent='center'>
         {resumeData.aboutMe.hobbies.items.map(hobby => (
-          <Grid item xs={12} sm={8} md={4} key={hobby.title}>
+          <Grid size={{xs: 12, sm: 8, md: 4}} key={hobby.title}>
             <OurCard
               {...{
                 getImage,

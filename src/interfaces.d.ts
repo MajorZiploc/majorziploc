@@ -175,7 +175,7 @@ export interface MoreMenuProps {
   supportingLinkButtonText: string;
 }
 
-export type CardImage = string | ((props: any) => React.JSXElementConstructor<any>);
+export type CardImage = ((props: any) => React.Element);
 
 export interface WorkExpEntryProps {
   job: Job;
