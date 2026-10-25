@@ -709,14 +709,9 @@
           "description": "At 30, I picked up game development in order to give my art a purpose",
           "links": {
             "main": {
-              "href": "https://majorziploc.itch.io/sticker-book-time-attack",
-              "label": "Check out my game demo"
-            },
-            "supporting": [
-              {
-                "href": "https://github.com/MajorZiploc/sticker_book_moments"
-              }
-            ]
+              "href": "https://lakemonu.itch.io/ma-kai-match-3-demo",
+              "label": "Check out my lastest game demo"
+            }
           }
         },
         {
