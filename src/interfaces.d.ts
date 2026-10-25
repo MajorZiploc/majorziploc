@@ -185,6 +185,7 @@ export interface MenuItem {
   listIcon: JSX.Element;
   listText: string;
   listPath: string;
+  linkUrl?: string;
 }
 
 export interface OurSelectProps {

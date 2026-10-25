@@ -49,8 +49,15 @@ const menuItems = [
   { listIcon: <Build />, listText: 'Technical Summary', listPath: '/techsummary' },
   { listIcon: <Apps />, listText: 'Open Source Projects', listPath: '/opensource' },
   { listIcon: <Brush />, listText: 'About Me', listPath: '/aboutme' },
-  { listIcon: <SportsEsports />, listText: 'Play My Game!', listPath: '/playgame' },
 ];
+
+/** @type {(resumeData: ResumeData) => MenuItem[]} */
+const getMenuItems = (resumeData) => {
+  if (resumeData?.header?.itchio) {
+    return menuItems.concat([{ listIcon: <SportsEsports />, listText: 'Play My Games!', linkUrl: resumeData.header.itchio, listPath: '/playgame' },]);
+  }
+  return menuItems.concat({ listIcon: <SportsEsports />, listText: 'Play My Game!', listPath: '/playgame' },);
+};
 
 /** @type {() => string} */
 const setInitActiveTab = () => {
@@ -82,17 +89,19 @@ const Navbar = () => {
       </Typography>
       <Divider />
       <List>
-        {menuItems.map(item => (
+        {getMenuItems(resumeData).map(item => (
           <ListItem
             key={item.listPath}
             className={`listItem ${item.listPath === activeTab ? 'listItemActive' : ''}`}
             onClick={handleClickListItem(item)}
-            component={Link}
-            to={item.listPath}
+            component={item.linkUrl ? 'a' : Link}
+            {...(item.linkUrl
+              ? { href: item.linkUrl, target: '_blank', rel: 'noopener noreferrer' }
+              : { to: item.listPath })}
           >
             <ListItemIcon className='listItem'>{item.listIcon}</ListItemIcon>
             <ListItemText primary={item.listText} />
-          </ListItem>
+        </ListItem>
         ))}
       </List>
       <Divider />
