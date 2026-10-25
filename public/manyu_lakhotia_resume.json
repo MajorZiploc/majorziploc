@@ -682,26 +682,12 @@
       "items": [
         {
           "title": "Art",
-          "description": "At 29, I picked up art inspired by my love for manga and anime. I mainly draw for my webcomic, game, and etsy shop; along with one off illustrations or animations",
+          "description": "At 29, I picked up art inspired by my love for manga and anime. I mainly draw for my comics, and game; along with one off illustrations or animations",
           "links": {
             "main": {
-              "href": "https://www.webtoons.com/en/canvas/orchestral-calling/list?title_no=987895",
-              "label": "Check out my webcomic"
-            },
-            "supporting": [
-              {
-                "href": "https://lakemonu.etsy.com",
-                "label": "Etsy Art Shop"
-              },
-              {
-                "href": "https://www.instagram.com/majorziploc/",
-                "label": "Instagram"
-              },
-              {
-                "href": "https://www.deviantart.com/majorziploc/gallery/all",
-                "label": "Deviant Art"
-              }
-            ]
+              "href": "https://www.deviantart.com/majorziploc/gallery/all",
+              "label": "Check out my art and comics"
+            }
           }
         },
         {
